@@ -1,5 +1,9 @@
 {
   "name": "kronan.io",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop"
+  },
   "eslintConfig": {
     "extends": "eslint-config-jesper"
   },
