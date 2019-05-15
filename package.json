@@ -1,8 +1,12 @@
 {
   "name": "kronan.io",
+  "eslintConfig": {
+    "extends": "eslint-config-jesper"
+  },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "eslint-config-jesper": "^1.0.0"
+    "eslint-config-jesper": "^2.0.0",
+    "prettier": "^1.17.1"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",

@@ -3366,10 +3366,10 @@ eslint-config-airbnb@^17.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-jesper@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-jesper/-/eslint-config-jesper-1.0.0.tgz#6f58567e1555b9718f9116bc17c907548b34e5d8"
-  integrity sha512-BuFXaBF/5SlE9Jp7AY/aGbks0RSllCwJlsPJuzPtL66+Pxwd+hqRJm3n54olWkjKnxd3jBCUCBkvXxETykvZkA==
+eslint-config-jesper@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-jesper/-/eslint-config-jesper-2.0.0.tgz#51fac24bc92a6bcbb4b8be2f3e844e77081e7c2c"
+  integrity sha512-PhEY2sKiUWsDggwS+80yC8hIvJBv2rT+OPen7YQx0KnOfokHq7hN0GtdZi+QrbRR2xq2tijjax0xN0cakl25og==
   dependencies:
     babel-eslint "^10.0.0"
     eslint-config-airbnb "^17.1.0"
@@ -3378,6 +3378,7 @@ eslint-config-jesper@^1.0.0:
     eslint-plugin-jsx-a11y "^6.1.1"
     eslint-plugin-prettier "^3.0.0"
     eslint-plugin-react "^7.11.1"
+    eslint-plugin-react-hooks "^1.6.0"
 
 eslint-config-prettier@^3.0.1:
   version "3.6.0"
@@ -3472,6 +3473,11 @@ eslint-plugin-prettier@^3.0.0:
   integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-react-hooks@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.6.0.tgz#348efcda8fb426399ac7b8609607c7b4025a6f5f"
+  integrity sha512-lHBVRIaz5ibnIgNG07JNiAuBUeKhEf8l4etNx5vfAEwqQ5tcuK3jV9yjmopPgQDagQb7HwIuQVsE3IVcGrRnag==
 
 eslint-plugin-react@^7.11.1, eslint-plugin-react@^7.8.2:
   version "7.13.0"
@@ -7450,6 +7456,11 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
+
+prettier@^1.17.1:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.17.1.tgz#ed64b4e93e370cb8a25b9ef7fef3e4fd1c0995db"
+  integrity sha512-TzGRNvuUSmPgwivDqkZ9tM/qTGW9hqDKWOE9YHiyQdixlKbv7kvEqsmDPrcHJTKwthU774TQwZXVtaQ/mMsvjg==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
