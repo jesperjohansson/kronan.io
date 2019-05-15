@@ -5,6 +5,7 @@ module.exports = {
       'Visar svenska kronans nuvarande värde och presenterar grafer för att se nuvarande kurs samt jämförelser mot andra valutor.',
   },
   plugins: [
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
