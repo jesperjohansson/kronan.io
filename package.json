@@ -1,5 +1,6 @@
 {
   "name": "kronan.io",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop"
