@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
 export default function Layout({ children }) {
-  const data = useStaticQuery(graphql`
+  const { site } = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
@@ -16,7 +16,7 @@ export default function Layout({ children }) {
   return (
     <>
       <header>
-        <h1>{data.site.siteMetadata.title}</h1>
+        <h1>{site.siteMetadata.title}</h1>
       </header>
       <main>{children}</main>
       <footer>&copy; Kronan.io</footer>
