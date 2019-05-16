@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    lang: 'sv',
     title: 'Kronan - Svenska Kronans Värde',
     description:
       'Visar svenska kronans nuvarande värde och presenterar grafer för att se nuvarande kurs samt jämförelser mot andra valutor.',
