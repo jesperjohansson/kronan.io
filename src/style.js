@@ -26,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     font-weight: 600;
     line-height: 1.25em;
+    letter-spacing: 0.025em;
   }
 `
 
