@@ -16,10 +16,19 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /src\/images/,
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Kronan - Svenska Kronans Värde',
         short_name: 'Kronan',
+        icon: 'src/images/icon.png',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#000000',
