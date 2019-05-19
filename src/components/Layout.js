@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
+import GlobalStyle from '../style'
 
 export default function Layout({ children }) {
   const { site } = useStaticQuery(graphql`
@@ -15,6 +16,7 @@ export default function Layout({ children }) {
 
   return (
     <>
+      <GlobalStyle />
       <header>
         <h1>{site.siteMetadata.title}</h1>
       </header>
