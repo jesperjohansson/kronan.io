@@ -1,3 +1,4 @@
+import reset from 'reset-css'
 import { createGlobalStyle } from 'styled-components'
 
 const fonts = {
@@ -6,6 +7,8 @@ const fonts = {
 }
 
 const GlobalStyle = createGlobalStyle`
+  ${reset}
+
   html {
     font-size: 10px;
   }
@@ -13,6 +16,16 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: ${fonts.primary};
     font-size: 1.6rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.25em;
   }
 `
 
