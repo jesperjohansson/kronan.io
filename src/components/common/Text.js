@@ -44,3 +44,14 @@ export const H6 = styled.h6`
   margin: 2.33em 0;
   font-size: 1rem;
 `
+
+export const A11yText = styled.span`
+  position: absolute;
+  overflow: hidden;
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: -0.1rem;
+  clip: rect(0px, 0px, 0px, 0px);
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
+  white-space: nowrap;
+`
