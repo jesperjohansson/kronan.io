@@ -7,3 +7,6 @@ node_modules
 # Gatsby
 .cache
 public
+
+# Styleguide
+src/pages/styleguide.js
